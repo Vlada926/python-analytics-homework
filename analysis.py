@@ -1,10 +1,9 @@
 import pandas as pd
 
-data = {
-    "cyti": ["Kyiv", "Lviv", "Odesa"], "sales": [1200, 950, 500]
-  }
+data = {"місто": ["Київ", "Львів", "Одеса"], "sales":}
 df = pd.DataFrame(data)
 
-average_sales = df["sales"].mean()
-print("Середнє значення:", average_sales)
-print("Це середній рівень продажів за трьох міст")
+print("Продажі по містах (відхилена версія коду):")
+print(df)
+
+print("Середнє значення:", df["sales"].mean())
